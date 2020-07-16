@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+See todo app demo at [https://stankeathlytodo.netlify.app](https://stankeathlytodo.netlify.app)
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
