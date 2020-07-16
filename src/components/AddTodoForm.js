@@ -16,10 +16,13 @@ const AddTodoForm = (props) => {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <Form.Group controlId="formBasicEmail">
-        <Form.Label id="new-todo-input"><h1>Todos</h1></Form.Label>
+      <Form.Group className="mb-0">
+        <Form.Label
+          htmlFor="addTodo">
+          <h1>Todos</h1>
+        </Form.Label>
         <Form.Control type="text"
-          id=""
+          id="addTodo"
           className="input w-100 mb-3"
           name="text"
           autoComplete="off"
