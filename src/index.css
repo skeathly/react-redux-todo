@@ -1,0 +1,56 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/*END RESETS*/
+/* GLOBAL STYLES */
+.form-group > input[type="text"] {
+  display: inline-block;
+  margin-top: 0.4rem;
+}
+.btn.toggle-btn {
+  border-width: 1px;
+  border-color: #d3d3d3;
+}
+.btn.toggle-btn[aria-pressed="true"] {
+  text-decoration: underline;
+  border-color: #4d4d4d;
+}
+.label-wrapper {
+  margin: 0;
+  flex: 0 0 100%;
+  text-align: center;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+/* END GLOBAL STYLES */
+.todoapp {
+  background: #fff;
+  margin: 2rem 0 4rem 0;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: .25rem;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: #28a745;
+  background-color: #28a745;
+}
+
+.custom-control-label::after {
+  width: 1.1rem;
+  height: 1.1rem;
+}
